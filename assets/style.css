@@ -13,8 +13,9 @@ body {
 	z-index: 1000;
 	display: flex;
 	justify-content: space-between;
-	padding-inline: 100px;
-	padding-block: 30px;
+	 /* padding-inline: 100px;
+	padding-block: 30px;  */
+	 padding: 30px 100px;
 	align-items: center;
 }
 .top-header .name {
@@ -40,8 +41,9 @@ body {
 #about {
 	display: flex;
 	background-color: #F6D2B8;
-	padding-inline: 100px;
-	padding-block: 100px;
+	/* padding-inline: 100px;
+	padding-block: 100px; */
+	padding: 100px;
 	position: relative;
 }
 .picture.left::before {
@@ -174,8 +176,9 @@ body {
 	margin: auto;
 	background-color: #D8D3A8 ;
 	position: relative;
-	padding-inline: 100px;
-	padding-block: 100px;
+	/* padding-inline: 100px;
+	padding-block: 100px; */
+	padding: 100px;
 }
 #contact .container {
 	display: flex;
@@ -315,8 +318,9 @@ input[type="submit"] {
 		max-width: 90%;
 	}
 	#about, #contact {
-		padding-inline: 2em;
-		padding-block: 2em;
+		  padding: 2em;  
+		 /* padding-inline: 2em;
+		padding-block: 2em;  */
 	}
 	form {
 		width: 100%;
